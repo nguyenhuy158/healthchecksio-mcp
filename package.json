@@ -10,7 +10,6 @@
   "packageManager": "pnpm@10.26.2",
   "scripts": {
     "build": "tsc && chmod +x build/index.js",
-    "prepare": "tsc && chmod +x build/index.js",
     "start": "node build/index.js"
   },
   "keywords": [],
