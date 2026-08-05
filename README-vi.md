@@ -1,6 +1,6 @@
 # healthchecksio-mcp
 
-[English](./README.md) · Tiếng Việt
+[🇬🇧 English](./README.md) · 🇻🇳 Tiếng Việt
 
 MCP server cho Healthchecks.io API. Cho phép Claude quản lý checks, channels, badges, gửi ping.
 
