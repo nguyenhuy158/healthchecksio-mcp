@@ -5,9 +5,11 @@ MCP server cho Healthchecks.io API. Cho phép Claude quản lý checks, channels
 ## Cài đặt
 
 ```bash
-npm install
-npm run build
+pnpm install
+pnpm run build
 ```
+
+(npm cũng dùng được: `npm install && npm run build`)
 
 ## Config env
 
@@ -17,11 +19,19 @@ npm run build
 
 ## Đăng ký với Claude Code
 
+Cài trực tiếp từ GitHub, không cần clone (pnpm ưu tiên):
+
 ```bash
-claude mcp add healthchecksio -e HEALTHCHECKS_API_KEY=your-key -- node /Users/huyntq/Documents/healthchecksio-mcp/build/index.js
+claude mcp add healthchecksio -e HEALTHCHECKS_API_KEY=your-key -- pnpm dlx github:nguyenhuy158/healthchecksio-mcp
 ```
 
-Hoặc thêm vào `.mcp.json` / `claude_desktop_config.json`:
+npm cũng dùng được:
+
+```bash
+claude mcp add healthchecksio -e HEALTHCHECKS_API_KEY=your-key -- npx -y github:nguyenhuy158/healthchecksio-mcp
+```
+
+Hoặc chạy từ bản đã build local, thêm vào `.mcp.json` / `claude_desktop_config.json`:
 
 ```json
 {
