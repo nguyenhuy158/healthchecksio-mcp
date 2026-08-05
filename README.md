@@ -1,5 +1,7 @@
 # healthchecksio-mcp
 
+<!-- mcp-name: io.github.nguyenhuy158/healthchecksio-mcp -->
+
 🇬🇧 English · [🇻🇳 Tiếng Việt](./README-vi.md)
 
 MCP server for the Healthchecks.io API. Lets Claude manage checks, channels, badges, and send pings.
